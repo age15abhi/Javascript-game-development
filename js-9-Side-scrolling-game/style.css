@@ -1,0 +1,15 @@
+body{
+    background: black;
+}
+#canvas1{
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border: 3px solid white;
+}
+
+#playerImage , #backgroundImage , #enemyImage {
+display: none;
+}
